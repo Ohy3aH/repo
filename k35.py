@@ -107,9 +107,10 @@ def main():
     move()
     put_beeper()
     move()
-    put_beeper
+    put_beeper()
     move()
     put_beeper()
+    
     pass
 
 

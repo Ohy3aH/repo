@@ -3,33 +3,33 @@ from stanfordkarel import *
 
 class ktools:
   def m(self):
-   """shorthand for move"""
-   move()
+    """shorthand for move"""
+    move()
    
   def tl(self):
-     """turn left"""
-     turn_left()
+    """turn left"""
+    turn_left()
   
   def tr(self):
-      """turn right"""
-      self.tl()
-      self.tl()
-      self.tl()
+    """turn right"""
+    self.tl()
+    self.tl()
+    self.tl()
   
   def ta(self):
-        """turn around"""
-        self.tl()
-        self.tl()
+    """turn around"""
+    self.tl()
+    self.tl()
   
   def pick(self):
-          """pick beeper"""
-          pick_beeper()
+    """pick beeper"""
+    pick_beeper()
 
   def put2(self):
-      """put 2 beepers in a line"""
-      self.put()
-      self.m()
-      self.put()
+    """put 2 beepers in a line"""
+    self.put()
+    self.m()
+    self.put()
     
 
   def put5(self):  
@@ -85,8 +85,7 @@ def main():
     kt.m()
     kt.tl()
     kt.put2()
-    
-   pass
+    pass
 
 
 if __name__ == "__main__":
