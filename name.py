@@ -31,9 +31,8 @@ class ktools:
     self.m()
     self.put()
     
-
   def put5(self):  
-    """put 5 beepersa in a line"""
+    """put 5 beepers in a line"""
     self.put2()
     self.m()
     self.put2()
