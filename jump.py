@@ -1,4 +1,11 @@
-from stanfordkarel import *
+
+    move()
+    turn_left()
+    pass
+
+
+if __name__ == "__main__":
+    run_karel_program()from stanfordkarel import *
 
 
 def main():
@@ -21,10 +28,3 @@ def main():
     move()
     move()
     move()
-    move()
-    turn_left()
-    pass
-
-
-if __name__ == "__main__":
-    run_karel_program()
